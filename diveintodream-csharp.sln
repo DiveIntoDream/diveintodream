@@ -1,7 +1,7 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-Project("{9FC4AB52-A597-C6FC-D1C3-B7B5701C774E}") = "DiveIntoDream", "Assembly-CSharp-vs.csproj", "{04AC4444-E7D9-0849-99A9-C788787FD981}"
+Project("{E1E61A76-269D-B6A0-F9D5-9BCC75315012}") = "diveintodream", "Assembly-CSharp-vs.csproj", "{37D54E72-1F61-384D-3789-002BF46AE846}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,15 +9,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{04AC4444-E7D9-0849-99A9-C788787FD981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{04AC4444-E7D9-0849-99A9-C788787FD981}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{04AC4444-E7D9-0849-99A9-C788787FD981}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{04AC4444-E7D9-0849-99A9-C788787FD981}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37D54E72-1F61-384D-3789-002BF46AE846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37D54E72-1F61-384D-3789-002BF46AE846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37D54E72-1F61-384D-3789-002BF46AE846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37D54E72-1F61-384D-3789-002BF46AE846}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-									GlobalSection(MonoDevelopProperties) = preSolution
+												GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
