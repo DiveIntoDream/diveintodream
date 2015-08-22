@@ -33,7 +33,7 @@ public class ItemManager : MonoBehaviour
 	private void createItems(float posy)
 	{
 		GameObject item = GameObject.Instantiate(items[Random.Range(0,items.Length)]) as GameObject;
-		item.GetComponent<Item> ().itemType = Random.Range (0, 5);
+//		item.GetComponent<Item> ().itemType = Random.Range (0, 5);
 		//		int randomId = Random.Range (0, items.Length);
 		float y = Random.Range (posy-25, posy-15);
 		float x = Random.Range (-7, 7);

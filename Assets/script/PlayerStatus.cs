@@ -20,18 +20,19 @@ public class PlayerStatus : MonoBehaviour
 		{
 		case 0:// SPEED UP
 			GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().maxSpeedUp();
-			break;
-		case 1:// SPEED DOWN
-			GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().maxSpeedDown();
-			break;
-		case 2:// MASS UP
 			this.GetComponent<Rigidbody>().mass += 40.0f;
 			break;
+		case 1:// SPEED DOWN
+//			GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().maxSpeedDown();
+			break;
+		case 2:// MASS UP
+//			this.GetComponent<Rigidbody>().mass += 40.0f;
+			break;
 		case 3:// MASS DOWN
-			if(this.GetComponent<Rigidbody>().mass > 50.0f)
-			{
-				this.GetComponent<Rigidbody>().mass -= 4.0f;
-			}
+//			if(this.GetComponent<Rigidbody>().mass > 50.0f)
+//			{
+//				this.GetComponent<Rigidbody>().mass -= 4.0f;
+//			}
 			break;
 		case 4:// SCORE UP
 			score++;

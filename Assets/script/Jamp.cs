@@ -43,7 +43,9 @@ public class Jamp : MonoBehaviour
 			/*クリックしたタイミングでジャンプする*/
 			if (Input.GetMouseButtonUp (0))
 			{
-				this.transform.GetComponent<Rigidbody> ().AddForce (new Vector3 (0, (int)power * 20+1300, 0));
+//				this.transform.GetComponent<Rigidbody> ().AddForce (new Vector3 (0, (int)power * 20+1300, 0));
+				// 28 - 97
+				this.GetComponent<Rigidbody>().velocity = new Vector3(0.0f, (int)(69.9f/100.0f*power+28.0f), 0.0f);
 				jumped = true;
 				
 				// slider wo kesu

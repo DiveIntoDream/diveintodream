@@ -1,9 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/Cushion.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/Jamp.cs">
     <Files>
-      <File FileName="Assets/script/PlayerController.cs" Line="38" Column="1" />
-      <File FileName="Assets/script/Cushion.cs" Line="17" Column="20" />
+      <File FileName="Assets/script/PlayerController.cs" Line="23" Column="5" />
+      <File FileName="Assets/script/Cushion.cs" Line="8" Column="1" />
+      <File FileName="Assets/script/ItemManager.cs" Line="39" Column="34" />
+      <File FileName="Assets/script/Item.cs" Line="1" Column="1" />
+      <File FileName="Assets/script/Jamp.cs" Line="40" Column="24" />
+      <File FileName="Assets/script/PlayerStatus.cs" Line="37" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
