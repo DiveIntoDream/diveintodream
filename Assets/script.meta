@@ -1,7 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: a7056fdca7e19e84fbcbdffd7f82fddc
 folderAsset: yes
 timeCreated: 1440222374
+=======
+guid: 9ec33ae6eb82c4206b5d4edf0f011653
+folderAsset: yes
+timeCreated: 1440222371
+>>>>>>> fall
 licenseType: Free
 DefaultImporter:
   userData: 
