@@ -28,7 +28,7 @@ public class Jamp : MonoBehaviour
 			{
 				falling = true;
 				this.GetComponent<PlayerController>().enableControl();
-				this.GetComponent<Rigidbody>().mass = 10.0f;
+				this.GetComponent<Rigidbody>().mass = 100.0f;
 			}
 
 		}

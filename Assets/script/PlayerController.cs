@@ -5,7 +5,7 @@ public class PlayerController : MonoBehaviour
 {
 	private bool controllable = false;
 
-	private const float MAX_SPEED = -30.0f;
+	private const float MAX_SPEED = -60.0f;
 	private float maxSpeed = MAX_SPEED;
 	void Update ()
 	{
