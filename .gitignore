@@ -1,7 +1,7 @@
 # ---------------[ Unity generated ]------------------ #
-[Ll]ibrary/
-[Tt]emp/
-[Oo]bj/
+Library/
+Temp/
+Obj/
 UnityGenerated/
 ProjectSettings/*.asset
 
