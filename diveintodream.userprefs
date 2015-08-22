@@ -1,11 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/Jamp.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/Item.cs">
     <Files>
-      <File FileName="Assets/script/PlayerController.cs" Line="6" Column="32" />
+      <File FileName="Assets/script/PlayerController.cs" Line="19" Column="26" />
       <File FileName="Assets/script/Cushion.cs" Line="1" Column="1" />
-      <File FileName="Assets/script/Jamp.cs" Line="43" Column="4" />
+      <File FileName="Assets/script/Jamp.cs" Line="1" Column="1" />
       <File FileName="Assets/script/DeleteDeathZone.cs" Line="1" Column="1" />
+      <File FileName="Assets/script/GameManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/script/ItemManager.cs" Line="21" Column="32" />
+      <File FileName="Assets/script/Item.cs" Line="9" Column="11" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

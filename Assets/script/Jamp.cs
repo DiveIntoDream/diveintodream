@@ -23,11 +23,12 @@ public class Jamp : MonoBehaviour
 		{
 			// kasokudo ga 0 ni nattara controllable ni
 			float speed = this.GetComponent<Rigidbody> ().velocity.y;
-			Debug.Log ("takasa:"+speed);
-			if(speed <= 0)
+//			Debug.Log ("takasa:"+speed);
+			if(speed <= 0 && this.GetComponent<Rigidbody> ().position.y > 35.0f)
 			{
 				falling = true;
 				this.GetComponent<PlayerController>().enableControl();
+				this.GetComponent<Rigidbody>().mass = 10.0f;
 			}
 
 		}
@@ -42,7 +43,7 @@ public class Jamp : MonoBehaviour
 			/*クリックしたタイミングでジャンプする*/
 			if (Input.GetMouseButtonUp (0))
 			{
-				this.transform.GetComponent<Rigidbody> ().AddForce (new Vector3 (0, (int)power * 20, 0));
+				this.transform.GetComponent<Rigidbody> ().AddForce (new Vector3 (0, (int)power * 20+1300, 0));
 				jumped = true;
 				
 				// slider wo kesu
