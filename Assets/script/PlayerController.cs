@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
 
 	private const float MAX_SPEED = -30.0f;
 	private float maxSpeed = MAX_SPEED;
+	
 	void Update ()
 	{
 		if(controllable)
@@ -42,7 +43,6 @@ public class PlayerController : MonoBehaviour
 				this.gameObject.GetComponent<Rigidbody>().velocity = new Vector3(spdx, maxSpeed, 0.0f);
 			}
 		}
-
 	}
 
 	/** enable to player control */

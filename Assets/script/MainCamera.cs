@@ -14,6 +14,6 @@ public class MainCamera : MonoBehaviour
 	void Update ()
 	{
 		//higthscore = (Text)player.transform.localPosition.y;
-		this.transform.position = new Vector3 (0.0f, player.transform.position.y, transform.position.z);	
+		this.transform.position = new Vector3 (0.0f, player.transform.position.y, transform.position.z);
 	}
 }
