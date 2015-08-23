@@ -1,16 +1,18 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class title : MonoBehaviour {
+public class title : MonoBehaviour 
+{
 
-	// Use this for initialization
-	void Start () {
-	
+	private float startTime = 0.0f;
+	void Start () 
+	{
+		startTime = Time.time;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if(Input.GetMouseButtonUp(0)){
+		if(Time.time - startTime > 2.0f){
 			Debug.Log("change scine");
 			Application.LoadLevel("DiveintoDream");
 		}

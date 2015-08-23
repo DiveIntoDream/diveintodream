@@ -3,6 +3,12 @@ using System.Collections;
 
 public class PlayerStatus : MonoBehaviour
 {
+	private int cushionNum = 0;
+	public int getCushionNum()
+	{
+		return cushionNum;
+	}
+
 	private int itemNum = 0;
 	public int getItemNum()
 	{
@@ -14,7 +20,7 @@ public class PlayerStatus : MonoBehaviour
 		return score;
 	}
 
-	private int cushionNum = 0;
+	//private int cushionNum = 0;
 	public void flyCushion()
 	{
 		cushionNum++;

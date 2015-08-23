@@ -11,10 +11,20 @@ public class Bed : MonoBehaviour
 		player = GameObject.FindGameObjectWithTag ("Player").GetComponent<PlayerController> ();
 		effect.SetActive (false);
 	}
+	void Update()
+	{
+		
+		if(trigger)
+		{
+			GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Score>().showCushonNum();
+			return;
+		}
+	}
 
 	/** 何かに触れたときをタグで判定 */
 	void OnTriggerStay(Collider other)
 	{
+
 		if(trigger || !player.isControllable())
 		{
 			return;
