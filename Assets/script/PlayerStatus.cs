@@ -14,6 +14,13 @@ public class PlayerStatus : MonoBehaviour
 		return score;
 	}
 
+	private int cushionNum = 0;
+	public void flyCushion()
+	{
+		cushionNum++;
+		Debug.Log (cushionNum);
+	}
+
 	private int score = 0;
 
 	private void pickItem(int itemType)
