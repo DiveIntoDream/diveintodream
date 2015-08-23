@@ -6,7 +6,7 @@ public class Jamp : MonoBehaviour
 {
 	private bool jumped = false;
 	private bool falling = false;
-
+	public GameObject text2;
 
 //	public GameObject human;
 	float power = 0;
@@ -52,6 +52,7 @@ public class Jamp : MonoBehaviour
 				
 				// slider wo kesu
 				slider.SetActive(false);
+				Destroy(text2);
 				
 			}
 			
