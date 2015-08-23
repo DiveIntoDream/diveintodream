@@ -73,6 +73,7 @@
      <Compile Include="Assets\SpriteStudio\Script\Script_SpriteStudio_Triangle4.cs" />
      <Compile Include="Assets\SpriteStudio\ScriptLibrary\Library_SpriteStudio.cs" />
      <Compile Include="Assets\SpriteStudio\ScriptLibrary\Library_SpriteStudio_Utilities.cs" />
+     <Compile Include="Assets\script\Bed.cs" />
      <Compile Include="Assets\script\Button.cs" />
      <Compile Include="Assets\script\Cushion.cs" />
      <Compile Include="Assets\script\DeleteDeathZone.cs" />

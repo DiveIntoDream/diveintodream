@@ -7,10 +7,16 @@ public class PlayerController : MonoBehaviour
 
 	private const float MAX_SPEED = -30.0f;
 	private float maxSpeed = MAX_SPEED;
-	
+
+	private bool inbed = false;
+	public void bedin()
+	{
+		inbed = true;
+	}
+
 	void Update ()
 	{
-		if(controllable)
+		if(controllable && !inbed)
 		{
 			float movePower = this.gameObject.GetComponent<Rigidbody> ().mass;
 
@@ -47,7 +53,7 @@ public class PlayerController : MonoBehaviour
 
 	void OnMouseDrag()
 	{
-		if (controllable) {
+		if (controllable && !inbed) {
 			Vector3 objectPointInScreen
 			= Camera.main.WorldToScreenPoint (this.transform.position);
 		
