@@ -3,13 +3,15 @@ using System.Collections;
 
 public class PlayerStatus : MonoBehaviour
 {
-	void Start ()
+	private int itemNum = 0;
+	public int getItemNum()
 	{
+		return itemNum;
 	}
-	
-	void Update ()
+
+	public int getScore()
 	{
-	
+		return score;
 	}
 
 	private int score = 0;
@@ -21,6 +23,7 @@ public class PlayerStatus : MonoBehaviour
 		case 0:// SPEED UP
 			GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().maxSpeedUp();
 			this.GetComponent<Rigidbody>().mass += 40.0f;
+			itemNum++;
 			break;
 		case 1:// SPEED DOWN
 //			GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>().maxSpeedDown();
@@ -40,7 +43,7 @@ public class PlayerStatus : MonoBehaviour
 		default:
 			break;
 		}
-		Debug.Log ("spd["+this.GetComponent<Rigidbody>().velocity.y+"], mass["+this.GetComponent<Rigidbody>().mass+"], score["+score+"]");
+//		Debug.Log ("spd["+this.GetComponent<Rigidbody>().velocity.y+"], mass["+this.GetComponent<Rigidbody>().mass+"], score["+score+"]");
 	}
 	
 	/** 何かに触れたときをタグで判定 */
