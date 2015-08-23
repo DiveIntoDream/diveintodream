@@ -45,6 +45,24 @@ public class PlayerController : MonoBehaviour
 		}
 	}
 
+	void OnMouseDrag()
+	{
+		if (controllable) {
+			Vector3 objectPointInScreen
+			= Camera.main.WorldToScreenPoint (this.transform.position);
+		
+			Vector3 mousePointInScreen
+			= new Vector3 (Input.mousePosition.x,
+				               objectPointInScreen.y,
+			              objectPointInScreen.z);
+		
+			Vector3 mousePointInWorld = Camera.main.ScreenToWorldPoint (mousePointInScreen);
+			mousePointInWorld.z = this.transform.position.z;
+			this.transform.position = mousePointInWorld;
+	
+		}
+	}
+
 	/** enable to player control */
 	public void enableControl()
 	{
