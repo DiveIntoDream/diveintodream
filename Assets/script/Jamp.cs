@@ -7,6 +7,7 @@ public class Jamp : MonoBehaviour
 	private bool jumped = false;
 	private bool falling = false;
 
+
 //	public GameObject human;
 	float power = 0;
 	//double testpower = 0.0;
@@ -19,6 +20,7 @@ public class Jamp : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
+
 		if(!falling && jumped)
 		{
 			// kasokudo ga 0 ni nattara controllable ni
