@@ -8,6 +8,8 @@ public class Jamp : MonoBehaviour
 	private bool falling = false;
 	public GameObject text2;
 
+	bool isViewTitle = true;
+
 //	public GameObject human;
 	float power = 0;
 	//double testpower = 0.0;
@@ -59,5 +61,8 @@ public class Jamp : MonoBehaviour
 			slider.GetComponent<Slider>().value = power;
 		}
 
+	}
+	public void changeTitleFlg(){
+		isViewTitle = false;
 	}
 }
