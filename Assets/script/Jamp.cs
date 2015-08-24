@@ -7,6 +7,8 @@ public class Jamp : MonoBehaviour
 	private bool jumped = false;
 	private bool falling = false;
 	public GameObject text2;
+	public AudioClip audioClip;
+	AudioSource audioSource;
 
 	bool isViewTitle = true;
 
@@ -17,6 +19,8 @@ public class Jamp : MonoBehaviour
 	void Start ()
 	{
 		slider = GameObject.Find("Slider");
+		audioSource = gameObject.GetComponent<AudioSource>();
+		audioSource.clip = audioClip;
 	}
 	
 	// Update is called once per frame
@@ -55,6 +59,7 @@ public class Jamp : MonoBehaviour
 				// slider wo kesu
 				slider.SetActive(false);
 				Destroy(text2);
+				audioSource.Play();
 				
 			}
 			

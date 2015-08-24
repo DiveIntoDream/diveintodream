@@ -20,6 +20,6 @@ public class Tweet : MonoBehaviour {
 		cushonscore = player.GetComponent<PlayerStatus> ().getCushionNum ();
 		hightscore = scoretext.GetComponent<Score> ().getHightScore ();
 		// WebブラウザのTwitter投稿画面を開く
-		Application.OpenURL("http://twitter.com/intent/tweet?text=" + WWW.EscapeURL("ユニティーちゃんが上空"+hightscore+"kmまでジャンプして、"+cushonscore+"個のクッションを吹き飛ばしました！\nhttp://goo.gl/vgRpvS #did"));
+		Application.OpenURL("http://twitter.com/intent/tweet?text=" + WWW.EscapeURL("ユニティちゃんが上空"+hightscore+"kmまでジャンプして、"+cushonscore+"個のクッションを吹き飛ばしました！\nhttp://goo.gl/vgRpvS #did"));
 	}
 }
