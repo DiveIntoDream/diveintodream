@@ -86,6 +86,7 @@
      <Compile Include="Assets\script\PlayerController.cs" />
      <Compile Include="Assets\script\PlayerStatus.cs" />
      <Compile Include="Assets\script\Score.cs" />
+     <Compile Include="Assets\script\Tweet.cs" />
      <Compile Include="Assets\script\UI.cs" />
      <Compile Include="Assets\script\text.cs" />
      <Compile Include="Assets\script\title.cs" />

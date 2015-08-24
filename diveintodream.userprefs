@@ -1,17 +1,18 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\script\Jamp.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\script\Tweet.cs">
     <Files>
       <File FileName="Assets\script\Bed.cs" Line="11" Column="90" />
-      <File FileName="Assets\script\Jamp.cs" Line="66" Column="23" />
+      <File FileName="Assets\script\Jamp.cs" Line="39" Column="13" />
       <File FileName="Assets\script\PlayerStatus.cs" Line="1" Column="1" />
       <File FileName="Assets\script\ItemManager.cs" Line="1" Column="1" />
       <File FileName="Assets\script\PlayerController.cs" Line="1" Column="1" />
       <File FileName="Assets\script\Cushion.cs" Line="1" Column="1" />
-      <File FileName="Assets\script\Score.cs" Line="13" Column="56" />
-      <File FileName="Assets\script\text.cs" Line="1" Column="1" />
-      <File FileName="Assets\script\CharacterStoper.cs" Line="17" Column="89" />
-      <File FileName="Assets\script\title.cs" Line="17" Column="3" />
+      <File FileName="Assets\script\Score.cs" Line="14" Column="21" />
+      <File FileName="Assets\script\CharacterStoper.cs" Line="1" Column="1" />
+      <File FileName="Assets\script\title.cs" Line="25" Column="6" />
+      <File FileName="Assets\script\Tweet.cs" Line="24" Column="143" />
+      <File FileName="Assets\script\UI.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

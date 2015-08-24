@@ -22,9 +22,9 @@ public class title : MonoBehaviour
 		if(Time.time - startTime > 2.0f){
 			//Debug.Log("change scine");
 			titleImage.gameObject.SetActive (false);
-			bar.gameObject.SetActive(true);
+			//bar.gameObject.SetActive(true);
 			//Application.LoadLevel("DiveintoDream");
-			GameObject.FindGameObjectWithTag("Player").GetComponent<Jamp>().changeTitleFlg();
+			//GameObject.FindGameObjectWithTag("Player").GetComponent<Jamp>().changeTitleFlg();
 		}
 	}
 }
