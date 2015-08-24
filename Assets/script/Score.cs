@@ -7,10 +7,11 @@ public class Score : MonoBehaviour {
 	private GameObject player;
 	public Text text;
 	public Text cushontext;
+	public Image hukidashi;
 	// Use this for initialization
 	void Start () {
 		player = GameObject.FindGameObjectWithTag ("Player");
-
+		hukidashi.gameObject.SetActive (false);
 	}
 	PlayerStatus ps = new PlayerStatus();
 	// Update is called once per frame
@@ -24,6 +25,7 @@ public class Score : MonoBehaviour {
 	}
 	public void showCushonNum(){
 		cushontext.text = "クッションを\n"+player.GetComponent<PlayerStatus> ().getCushionNum ()+"個吹き飛ばした！";
+		hukidashi.gameObject.SetActive (true);
 	}
 	void OnGUI()
 	{

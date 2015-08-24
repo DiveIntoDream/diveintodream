@@ -1,39 +1,35 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Bed : MonoBehaviour
-{
-	private bool trigger = false;
+public class CharacterStoper : MonoBehaviour {
 	private PlayerController player = null;
-	public GameObject effect = null;
+	private bool trigger = false;
+	// Use this for initialization
 	void Start()
 	{
 		player = GameObject.FindGameObjectWithTag ("Player").GetComponent<PlayerController> ();
-		effect.SetActive (false);
 	}
-	void Update()
-	{
-		
-		//if(trigger)
-		//{
-			//GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Score>().showCushonNum();
-			//return;
-		//}
+	
+	// Update is called once per frame
+	void Update () {
+		if(trigger)
+		{
+			GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Score>().showCushonNum();
+			return;
+		}
 	}
 
 	/** 何かに触れたときをタグで判定 */
 	void OnTriggerStay(Collider other)
 	{
-
 		if(trigger || !player.isControllable())
 		{
 			return;
 		}
 		if (other.gameObject.tag.Equals("Player"))
 		{
-			effect.SetActive (true);
 			trigger = true;
-			//player.bedin();
+			player.bedin();
 		}
 	}
 }
